@@ -13,6 +13,7 @@ Comprehensive race results including horse details and augments used:
 - `race_date` - When the race occurred
 - `race_pots_total` - Total prize pool
 - `user_id` - Unique identifier for the user/owner
+- `stable_name` - Name of the stable/team
 - `gate_number` - Starting gate position for the horse
 - `horse_id` - Unique identifier for the horse
 - `horse_name` - Name of the horse
@@ -38,6 +39,8 @@ Comprehensive race results including horse details and augments used:
 Aggregated performance statistics for each horse:
 - `horse_id` - Unique identifier for the horse
 - `horse_name` - Name of the horse
+- `user_id` - Unique identifier for the horse owner
+- `stable_name` - Name of the stable/team
 - `bloodline` - Horse's bloodline
 - `rating` - Horse's complete rating
 - `speed_rating` - Horse's speed rating
