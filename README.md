@@ -13,6 +13,7 @@ Comprehensive race results including horse details and augments used:
 - `race_date` - When the race occurred
 - `race_pots_total` - Total prize pool
 - `user_id` - Unique identifier for the user/owner
+- `gate_number` - Starting gate position for the horse
 - `horse_id` - Unique identifier for the horse
 - `horse_name` - Name of the horse
 - `bloodline` - Horse's bloodline (NAKAMOTO, SZABO, FINNEY, BUTERIN)
