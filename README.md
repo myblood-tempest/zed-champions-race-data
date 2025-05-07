@@ -16,6 +16,7 @@ Comprehensive race results including horse details and augments used:
 - `horse_id` - Unique identifier for the horse
 - `horse_name` - Name of the horse
 - `bloodline` - Horse's bloodline (NAKAMOTO, SZABO, FINNEY, BUTERIN)
+- `generation` - The breeding generation of the horse
 - `rating` - Horse's complete rating
 - `speed_rating` - Horse's speed rating
 - `sprint_rating` - Horse's sprint rating
