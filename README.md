@@ -22,7 +22,7 @@ Each CSV file contains the following columns:
 - `horse_name`: Name of the horse
 - `bloodline`: Horse's bloodline
 - `generation`: Horse's generation
-- `gender`: Horse's gender (e.g., Colt, Filly, Mare, Stallion)
+- `gender`: Horse's gender
 - `rating`: Overall rating of the horse
 - `speed_rating`: Speed rating
 - `sprint_rating`: Sprint rating
@@ -39,7 +39,7 @@ Each CSV file contains the following columns:
 - `cpu_augment`, `ram_augment`, `hydraulic_augment`: Names of augments equipped
 - `cpu_augment_triggered`, `ram_augment_triggered`, `hydraulic_augment_triggered`: Whether the augment was triggered (1 = yes, 0 = no)
 - `sectional_positions`: Array of integer positions for each race section (e.g., [3,2,1,1])
-- `state`: Horse's state (e.g., rested, tired, etc.)
+- `state`: Horse's state (RACEPOOL etc.)
 
 ## Update Process
 - Files are generated and pushed automatically in chunks, each up to 45MB, to comply with GitHub's file size limits.
